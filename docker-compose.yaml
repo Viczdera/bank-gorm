@@ -1,0 +1,21 @@
+services:
+  postgresdb:
+    image: postgres:12-alpine
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: s_bank
+
+  api:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "9090:9090"
+    #how to connect to the postgres service
+    environment:
+      DB_SOURCE: postgres://root:secret@postgresdb:5432/s_bank?sslmode=disable
+    depends_on:
+      - postgresdb
+    entrypoint: ["/app/wait-for.sh", "postgresdb:5432", "--", "/app/start.sh"]
+    command: [/app/main]
