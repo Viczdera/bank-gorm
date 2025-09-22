@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Viczdera/bank/util"
+	"github.com/Viczdera/bank-gorm/util"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/stretchr/testify/require"
 )

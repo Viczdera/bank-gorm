@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Viczdera/bank/util"
+	"github.com/Viczdera/bank-gorm/util"
 	_ "github.com/lib/pq"
 )
 

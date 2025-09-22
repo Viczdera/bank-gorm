@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	db "github.com/Viczdera/bank/db/sqlc"
-	"github.com/Viczdera/bank/token"
+	db "github.com/Viczdera/bank-gorm/db/sqlc"
+	"github.com/Viczdera/bank-gorm/token"
 	"github.com/gin-gonic/gin"
 	"github.com/lib/pq"
 )

@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	mockdb "github.com/Viczdera/bank/db/mock"
-	db "github.com/Viczdera/bank/db/sqlc"
-	"github.com/Viczdera/bank/token"
-	"github.com/Viczdera/bank/util"
+	mockdb "github.com/Viczdera/bank-gorm/db/mock"
+	db "github.com/Viczdera/bank-gorm/db/sqlc"
+	"github.com/Viczdera/bank-gorm/token"
+	"github.com/Viczdera/bank-gorm/util"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

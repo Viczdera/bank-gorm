@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Viczdera/bank/token"
-	"github.com/Viczdera/bank/util"
+	"github.com/Viczdera/bank-gorm/token"
+	"github.com/Viczdera/bank-gorm/util"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 )

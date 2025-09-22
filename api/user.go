@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	db "github.com/Viczdera/bank/db/sqlc"
-	"github.com/Viczdera/bank/util"
+	db "github.com/Viczdera/bank-gorm/db/sqlc"
+	"github.com/Viczdera/bank-gorm/util"
 	"github.com/gin-gonic/gin"
 	"github.com/lib/pq"
 )

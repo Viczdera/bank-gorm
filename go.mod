@@ -1,4 +1,4 @@
-module github.com/Viczdera/bank
+module github.com/Viczdera/bank-gorm
 
 go 1.24.0
 

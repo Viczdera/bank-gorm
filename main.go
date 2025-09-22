@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/Viczdera/bank/api"
-	db "github.com/Viczdera/bank/db/sqlc"
-	"github.com/Viczdera/bank/util"
+	"github.com/Viczdera/bank-gorm/api"
+	db "github.com/Viczdera/bank-gorm/db/sqlc"
+	"github.com/Viczdera/bank-gorm/util"
 
 	_ "github.com/lib/pq"
 )
